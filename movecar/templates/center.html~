@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>钉钉挪车</title>
+    <link rel="stylesheet" href="static/css/main.css">
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/center.js"></script>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui.min.css">
+    <script type="text/javascript" src="https://res.wx.qq.com/open/libs/weuijs/1.1.3/weui.min.js"></script>
+    <style>
+        .warn{
+            display: none;
+        }
+        .ko{
+            display: block;
+        }
+        html{
+            background-color: #A4A4A4;
+        }
+    </style>
+    <!---<script type="text/javascript">
+    $("#addr_submit").click(function(){
+        $.ajax({
+            type:"post",
+            url:"user_addr",
+            async:false,
+            data:{
+                p:$("#addr_p").val(),
+                addr:$("#sel1 option:selected").text()+ $("#sel2 option:selected").text()+ $("#sel3 option:selected").text()+$("#addr")+$("#addr_addr").val()
+            },
+            dataType:"json",
+            success:function(data){
+                console.log(data)
+            
+            }
+        });
+        });
+        
+
+
+    </script>--->
+</head>
+<body>
+    <div class="center">
+        <div id="headimg" class="top">
+            <img src="{{headimgurl }}" alt="headimg" class="img1">
+            <p class='nickname' id="nickname">{{ nickname }}</p>
+            <div class="info2">
+                <img src="static/img/p2.png" alt="" >
+            </div>
+            <div class="item">
+                <p>- 手机号 -</p>
+                <input type="text" id='modify_phone_i' readonly="false" value="{{ phone }}">
+                <button type='button' id='modify_phone'>修改</button>
+            </div>
+            <div class="item">
+                <p>- 车牌号 -</p>
+                <input type="text" id='modify_license_i' readonly value="{{ license_plate }}">
+                <button type='button'  id='modify_license'>修改</button>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <img src="static/img/left.png" alt="">
+                <p>绑定挪车码</p>
+            </div>
+            <div class="right">
+                <img src="static/img/right.png" alt="">
+                <p>申领挪车码</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="model">
+        <div class="model-final"></div>
+        <div class="model-one">
+            <div class="one-title">
+                   <img src="static/img/one_title.png" style="height:100%;" alt="">
+            </div>
+            
+            <form class="form" onsubmit="return verify()">
+
+                <div class="items2"style="height:42px;width:100%;margin-bottom:20px;">
+                    <!--<input type="text" placeholder="请输入车牌号" name="lp">-->
+                    <div class='mobile2'style="width:100%;display:flex;align-items:center;height:42px;">
+                    <div class="input">
+                        <select name="lp" id="car1" style="font-size:16px;text-align:center;height:32px;width:32px;line-height:32px;outline:none;border:none;margin-left:10px;margin-right:4px;border-radius:10px;overflow:hidden;appearance:none;-moz-appearance:none;-webkit-appearance:none;background-color:#fff;" value="云"></select>
+                        <input id="car2" value="A"  maxlenght='1' style="width:24px;height:24px;border-radius:0;font-size:16px;line-height:24px;padding:0;box-sizing:border-box;border:none;outline:none;" pattern="^[a-zA-Z]"></ipnut>
+                        <span style="padding:0 4px;padding-bottom:4px;margin-right:4px;">&bull;</span>
+                        <input id="car3" style=" padding:0;height:24px;font-size:16px;line-heght:24px;letter-space:12px;" maxlength='6'></ipnut>
+                    </div>
+                    </div>
+
+                    <!--<div>
+                        <img src="static/img/car.png" alt="">
+                    </div>-->
+                </div>
+
+                <div class="items">
+                    <input type="text" placeholder="请输入手机号码" name="p" id='bind_car_p' class="phone1">
+                    <div>
+                        <img src="static/img/mobile.png" alt="">
+                    </div>
+                </div>
+
+                <p> 
+                    为保证挪车功能正常使用，请确保输入信息准确无误
+                </p>
+                    
+                    
+                    <!--<input type="text" name="vc" placeholder="验证码">                        <div>
+                        <img src="static/img/qrcode.png" alt="">
+                    </div>            last modify-->
+
+                    <!--<button id="get_verify" type="button" class="generate_code">获取验证码</button>   last modify-->
+                    
+                    <p class="warn">请填写正确的信息!</p>
+                    <p class="ko" style="height: 20px;"></p>
+            
+
+           <!-- <div class="weui_dialog_alert">
+                <div class="weui_mask"></div>
+                <div class="weui_dialog">
+                    <div class="weui_dialog_hd"><strong class="weui_dialog_title">弹窗标题</strong></div>
+                    <div class="weui_dialog_bd">弹窗内容，告知当前页面信息等</div>
+                    <div class="weui_dialog_ft">
+                        <a href="javascript:;" class="weui_btn_dialog primary">确定</a>
+                    </div>
+                </div>
+            </div> -->
+            <div id="toast" style="display: none;">
+                <div class="weui_mask_transparent"></div>
+                <div class="weui_toast">
+                    <i class="weui_icon_toast"></i>
+                    <p class="weui_toast_content">已完成</p>
+                </div>
+            </div>
+
+            <!-- <button>绑定挪车码 </button> -->
+            <button type="button" class="db" id='apply'>绑定挪车码</button>
+
+            <div class="one-info">
+                <!--<input type="radio" checked="checked">我已阅读《钉钉挪车用户第三方协议》 -->
+            </div>
+            
+            </form>
+
+            </div>
+      
+            
+    </div>
+   
+
+     <div class="model2">
+        <div class="model-final"></div>
+        <div class="model-one">
+            <div class="one-title">
+                   <img src="static/img/two_title.png" alt="">
+            </div>
+            
+            <form id="addr_form" action="{% url 'user_addr' %}" method="post" class="form">
+
+                <div class="items-other">
+                   
+
+                    <div data-toggle="distpicker" class="choose">
+                      <select id="sel1"  data-province="云南省">云南省</select>
+                      <select id="sel2" data-city="昆明市">昆明市</select>
+                      <select id="sel3" data-district="五华区">西山区</select>
+                    </div>
+                </div>
+
+                
+
+                <div class="items"> 
+                    <input id="addr_p" type="text" placeholder="请输入手机号" name='p' class="phone2">
+                    <div>
+                        <img src="static/img/mobile.png" alt="">
+                    </div>
+                </div>
+
+                <div class="items">
+                        <input type="text" id="addr_addr" name='addr' placeholder="请输入详细地址">
+                        <div>
+                            <img src="static/img/location.png" alt="">
+                        </div>
+                </div>
+                    
+                    <p class="warn">请填写正确的信息!</p>
+                    <p class="ko" style="height: 20px;"></p>
+            
+
+           
+
+                <!-- <button>申请挪车码 </button> -->
+                <input type="button" id="addr_submit" value="申领挪车码" class="db" id="apply2">
+
+                <!-- <div class="one-info">
+                        <input type="radio" checked="checked">我已阅读《钉钉挪车用户第三方协议》
+                </div> -->
+
+            </form>
+            
+            
+
+        </div>
+        <div></div>
+        <script src="static/js/distpicker.data.min.js"></script>
+        <script src="static/js/distpicker.min.js"></script>
+        <script src="static/js/car_selector.js"></script>
+    <!-- 模态框弹出消失 -->
+    <script type="text/javascript">  
+
+        $('.left').click(function() {
+            $(".model").show();
+        });
+        $('.model-final').click(function() {
+            $(".model").hide();
+        });
+        $('.right').click(function() {
+            $(".model2").show();
+        });
+        $('.model-final').click(function() {
+            $(".model2").hide();
+        });
+        $('#modify_phone').click(function(){
+            if($("#modify_phone").text() == "修改"){
+                $("#modify_phone_i").removeAttr("readonly");
+                $("#modify_phone").text("确定");
+            }else{
+                console.log("修改手机")
+                $.ajax({
+                    type: "POST",
+                    url: "bind_api",
+                    async: false,
+                    data: {p:$('#modify_phone_i').val(),
+                        lp:$('#modify_license_i').val(),
+                    },
+                    dataType: "json",
+                    seccess:function(res){
+                        console.log(res.code);
+                        if(res.code==0){
+                            alert("修改成功");
+                        }
+
+                    
+                    },
+                    error:function(data){
+                        console.log(data);
+                        alert("修改失败");
+                    }
+                });
+                $("#modify_phone_i").attr("readonly","readonly");
+                $("#modify_phone").text("修改");
+            
+            }
+        });
+        $('#modify_license').click(function(){
+            
+            if($("#modify_license").text() == "修改"){
+                $("#modify_license_i").removeAttr("readonly");
+                $("#modify_license").text("确定");
+            }else{
+                console.log("修改车牌")
+                $.ajax({
+                    type: "POST",
+                    url: "bind_api",
+                    async: false,
+                    data: {p:$('#modify_phone_i').val(),
+                        lp:$('#modify_license_i').val(),
+                    },
+                    dataType: "json",
+                    seccess:function(data){
+                        console.log(data.code);
+                        if(data.code){
+                            alert("修改成功");
+                        }
+                    
+                    },
+                    error:function(data){
+                        console.log(data);
+                        alert("修改失败");
+                    }
+                
+                });
+                $("#modify_license_i").attr("readonly","readonly");
+                $("#modify_license").text("修改");
+            }
+
+        });
+        $("#headimg").bind('click',function(){
+            if ($("#nickname").text()=="请先点击头像登录"){
+                window.location.href="wechat_service?path=center&relogin=1";
+            }
+        });
+
+    </script>
+
+    <script type="text/javascript">  
+     $(function(){  
+        $(".mode2").show();
+        
+        // 判断手机号    
+        $(".generate_code").click(function(){  
+          var disabled = $(".generate_code").attr("disabled");  
+          if(disabled){  
+            return false;  
+          }  
+          if($(".phone1").val() == "" || isNaN($(".phone1").val()) || $(".phone1").val().length != 11 ){  
+            $('.warn').css('display','block');
+            $('.ko').css('display','none');
+            return false;  
+          }else{
+            $('.warn').css('display','none');
+            $('.ko').css('display','block');
+          }
+          $.ajax({  
+            async:false,  
+            type: "POST",  
+            url: "{% url "verifycode" %}",  
+            data: {p:$(".phone1").val()},  
+            dataType: "json",  
+            success:function(data){  
+                
+               console.log(data);  
+            },  
+            error:function(err){  
+              console.log(err);
+
+            }  
+          });  
+        });
+        $("input[name='p']").focus(function(){
+            $('.warn').css('display','none');
+            $('.ko').css('display','block');
+        });
+
+        
+        function isLicenseNo(vehicleNumber) {
+            var result = false;
+            if (vehicleNumber.length == 7){
+            var express = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-Z0-9]{4}[A-Z0-9挂学警港澳]{1}$/;
+
+                 result = express.test(vehicleNumber);
+             }
+             return result;
+         };
+
+         $("#addr_submit").click(function (){
+            document.getElementById("addr_addr").value=$("#sel1 option:selected").text()+ $("#sel2 option:selected").text()+ $("#sel3 option:selected").text()+$("#addr_addr").val();
+
+            setTimeout(function(){
+                $("#addr_form").submit();
+            },1000)
+
+         
+         });
+        
+
+
+         function verify() {
+            var radioCotent = $("input[type='radio']:checked").val();
+            var carName = $("input[ name='car_name']").val();
+            if (isLicenseNo(carName)) {
+                $('.warning').html("");
+                return true;
+            }
+            if(!isLicenseNo(carName)){
+                $('.warning').html("请输入正确的车牌号!");
+                return false;
+            }
+             if(radioCotent ==null) {
+                return false;
+            }else{
+                  return true;
+            }  
+        }
+
+
+         $("#apply2").click(function(){ 
+            if($("input[type='radio']:checked")) {
+                console.log("我已阅读《钉钉挪车用户第三方协议》")
+            }else{
+                 console.log("请选择我已阅读《钉钉挪车用户第三方协议》")
+            }
+          var disabled = $("#apply2").attr("disabled");  
+          if(disabled){  
+            return false;  
+          }  
+          if($(".phone2").val() == "" || isNaN($(".phone2").val()) || $(".phone2").val().length != 11 ){  
+            // alert("请填写正确的手机号！"); 
+            $('.warn').css('display','block');
+            $('.ko').css('display','none');
+            // $('#toast').css('display','block');
+            return false;  
+          }else{
+            $('.warn').css('display','none');
+            $('.ko').css('display','block');
+          }
+          });  
+        });   
+        // 倒计时
+        var countdown=60;  
+        var _generate_code = $(".generate_code");  
+        function settime() {  
+          if (countdown == 0) {  
+            _generate_code.attr("disabled",false);  
+            _generate_code.text("获取验证码");  
+            countdown = 60;  
+            return false;  
+          } else {  
+            $(".generate_code").attr("disabled", true);  
+            _generate_code.text("重新发送(" + countdown + ")");  
+            countdown--;  
+          }  
+          setTimeout(function() {  
+            settime();  
+          },1000);  
+        }
+    
+  
+</script>  
+</body>
+</html>

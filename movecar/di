@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+python3 /var/www/html/django/movecar/manage.py runserver_plus --cert-file /var/www/html/django/movecar/Nginx/1_yqzql.cn_bundle.crt --key-file /var/www/html/django/movecar/Nginx/2_yqzql.cn.key 0:8000

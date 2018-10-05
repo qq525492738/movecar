@@ -1,0 +1,653 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	/*line-height: 1;*/
+    padding:0 ;
+    margin:0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* index.html */
+.page{
+    width: 100%;
+    height: 100%;
+    background-color: #A4A4A4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/* 一 */
+.page .logo{
+    width: 110px;
+    height: 120px;
+    margin-top:80px;
+}
+.page .logo img{
+    width: 100%;
+    height: 100%;
+
+    object-fit:contain;
+}
+.index_form{
+    width: 90%;
+    margin:0 auto;
+}
+.index_form .form{
+    width: 100%;
+}
+.index_form .form .mobile{
+    width: 82%;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /*position: relative;*/
+}
+.mobile .p1, .mobile .p2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.mobile >input{
+    width: 100%;
+    height: 32px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    color: #DD8200;
+    box-sizing: border-box;
+    padding: 0 50px;
+    letter-spacing: 2px;
+
+}
+.mobile .input{
+    width: 100%;
+    margin:0 auto;
+    height: 32px;
+    border-radius: 25px;
+    background-color: #fff;
+    position: relative;
+   display:flex;
+   flex-direction:row;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.mobile .input #car3{
+    width:160px;
+    height: 32px;
+    outline:none;
+    border:0;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-right:10px;
+    line-height: 24px;
+    letter-spacing: 14px;
+    color: #818080;
+}
+
+.mobile2{
+    border:1px solid #f3f3f3;
+    border-radius: 20px;
+    margin-bottom:20px;
+  
+}
+
+
+
+.mobile2 .input #car3{
+    width:160px;
+    height: 32px;
+    outline:none;
+    border:0;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-right:10px;
+    line-height: 24px;
+    letter-spacing: 14px;
+    color: #818080;
+}
+.mobile .input img{
+    position: absolute;
+    top:2px;
+    left: 30px;
+    width: 8px;
+    height: 8px;
+}
+
+
+.page .warning{
+    margin-top: 12px;
+    margin-bottom: 40px;
+    color: red;
+    letter-spacing: 4px;
+    font-size: 14px;
+    height: 19px;
+}
+.page .footer{
+    width: 50%;
+    height: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page .footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+ .content{
+    width: 50%;
+    margin:0 auto;
+}
+ .content .submit{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    background-color:#A4A4A4;
+    color: #fff;
+    margin-bottom: 20px; 
+    outline: none;
+    font-size: 14px;
+}
+ .content a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    background-color:#A4A4A4;
+    color: #fff;
+    margin-bottom: 20px; 
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+}
+@media only screen and (min-width: 320px) and (max-width:340px){
+    .page .logo{
+        width: 110px;
+        height: 120px;
+        margin-top:26px;
+    }
+    .mobile .p1, .mobile .p2 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 12px;
+        letter-spacing: 6px;
+        font-size: 14px;
+    }
+    .page .footer {
+        width: 50%;
+        height: 33px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/* center.html */
+.center{
+    background-color: #A4A4A4;
+}
+.center .top{
+    width: 84%;
+    margin:0 auto;
+    height: 300px;
+    margin-top:60px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center .top .img1{
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid #A4A4A4;
+    background-color:#fff;
+
+
+}
+.center .top >p{
+    font-size: 16px;
+    color:#A4A4A4;
+    margin-top: 8px;
+}
+
+.center .info2{
+    width: 69%;
+    height: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center .info2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    float:left;
+}
+.center .item{
+    width: 82%;
+    margin-bottom: 10px;
+    position: relative;
+}
+.center .item p{
+    text-align: center;
+    color: #A4A4A4;
+    margin-bottom: 12px;
+}
+.center .item input{
+    width: 100%;
+    height: 32px;
+    border-radius: 12px;
+    border: 0;
+    outline: none;
+    background-color: #A4A4A4;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 50px;
+    letter-spacing: 2px;
+}
+.center .item button{
+    position: absolute;
+    right: 8px;
+    bottom: 7px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    background-color: #A4A4A4;
+
+}
+.center .bottom{
+    width: 82%;
+    margin: 36px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.center .bottom .left, .center .bottom .right{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center .bottom .left img , .center .bottom .right img{
+    width: 60px;
+    height: 60px;
+}
+.center .bottom .left p , .center .bottom .right p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+
+
+/* model   绑定挪车码 */
+.model{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index:99;
+    background-color:rgba(0,0,0, .4);
+
+}
+.model .model-final{
+    width: 100%;
+    height: 40%;
+}
+.model .model-one{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 28%;
+    bottom: 0;
+    z-index:100;
+    background-color: #fff;
+
+
+}
+.model .model-one .one-title{
+    width: 50%;
+    margin:10px auto;
+    height: 18px;
+}
+.model .model-one .one-title img{
+    width:100%;
+    height: 18px;
+    object-fit:cover;
+}
+.model-one .db{
+    width: 62%;
+    display: block;
+    margin:0 auto;
+    margin-top: 24px;
+    height: 44px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    /*background-color: #DD8200;  my cahnge*/
+    background-color: #A4A4A4;
+    outline: none;
+    border:0;
+    border-radius: 19px;
+    letter-spacing: 6px;
+    text-indent: 6px;
+}
+.model-one .one-info{
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    margin-top: 23px;
+}
+
+.form .items-other{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.form .items-other div{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.form .items-other div p{
+    color: #333; 
+    height: 42px;
+    line-height: 42px;   
+    margin-bottom: 0;
+}
+.form .items-other div img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+/* model2   申请挪车码 */
+.model2{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index:99;
+    background-color:rgba(0,0,0, .4);
+
+}
+.model2 .model-final{
+    width: 100%;
+    height: 40%;
+}
+.model2 .model-one{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 28%;
+    bottom: 0;
+    z-index:100;
+    /* height: 50%; */
+    background-color: #fff;
+
+
+}
+.model2 .model-one .one-title{
+    width: 50%;
+    margin:10px auto;
+    height: 18px;
+}
+.model2 .model-one .one-title img{
+    width:100%;
+    height: 18px;
+    object-fit:cover;
+}
+.form{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.form .items{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 19px;
+    position: relative;
+    overflow: hidden; 
+}
+.form .items input{
+    width: 100%;
+    height: 42px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #f3f3f3;
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 36px;
+    box-sizing: border-box;
+    
+}
+.form .items div{
+    position: absolute;
+    left:12px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+    /* background-color: #DD8200; */
+}
+#get_verify{
+    position: absolute;
+    right:12px;
+    top: 0;
+    width: 86px;
+    height: 42px;
+    outline: none;
+    border: none;
+    z-index:11;
+    background-color: #fff;
+    line-height: 42px;
+    font-size: 14px;
+}
+#get_verify2{
+    position: absolute;
+    right:12px;
+    top: 0;
+    width: 86px;
+    height: 32px;
+    outline: none;
+    border: none;
+    z-index:11;
+    background-color: #fff;
+    line-height: 32px;
+    font-size: 14px;
+    color: #A4A4A4;
+}
+.form .items div img{
+    width: 100%;
+    height: 100%;
+
+}
+.form .items .items_top img{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.form .items .items_top{
+    position: absolute;
+    left:12px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.form .items .items_top p{
+    font-size: 20px;
+    color: #333;
+
+}
+/* .form .items .items_top img{
+    position: absolute;
+} */
+.form p{
+    width: 100%;
+    text-align: center;
+    color: #DD8200;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.model-one .db{
+    width: 62%;
+    display: block;
+    margin:0 auto;
+    margin-top: 24px;
+    height: 44px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #A4A4A4;
+    outline: none;
+    border:0;
+    border-radius: 19px;
+    letter-spacing: 6px;
+    text-indent: 6px;
+}
+.model-one .one-info{
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    margin-top: 23px;
+}
+
+.form .items-other{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form .items-other .choose{
+    width: 100%;
+
+}
+.form .items-other .choose select{
+    width: 33%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+/*.form .items-other div p{
+    color: #333; 
+    height: 42px;
+    line-height: 42px;   
+    margin-bottom: 0;
+}
+.form .items-other div img{
+    width: 24px;
+    height: 24px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

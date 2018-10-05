@@ -1,0 +1,1488 @@
+03:25:19->not have user
+03:25:19->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+03:25:20->token:{'expires_in': 7200, 'refresh_token': '13_AYTnVLwcvZW25ISrbYyTh0V7gDTRtzHQYpBelmlsdqWC5vbtSqfKrRzUuujEeycrGXvdIVcl4Jm9tot0_0ahRNkR8nCGogZq3kTutY_W0s8', 'scope': 'snsapi_userinfo', 'access_token': '13_HzW3TasboYvNVsDAxlfB1z5Okf1-eadlwqFXhyFT-UxObbGMzzaeI4oUlLEekC3WY4ynSo9E3nbuxbgkZRpcCZoymEnRhLgQvPhMI9Z2q30', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY'}
+03:25:20->getuserinfo
+03:25:21->70>>have openid
+03:25:21->{'country': '阿富汗', 'privilege': [], 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'province': '', 'user': <User: User object (7)>, 'language': 'zh_CN', 'sex': 1, 'nickname': 'DI', 'city': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY'}
+05:23:03->authview-->id in
+05:24:32->not have user
+05:24:32->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:24:33->token:{'expires_in': 7200, 'refresh_token': '13_kzCqnq0c97GPxMEQtzlsIjVRR-0zsVcDLlnl82aM8pLZryHAvI2AT-YQP5dFmPNNTypgvR_hKH81x1tevgXtt8Bc6k4tDasOoX4cJ1MYHzQ', 'scope': 'snsapi_userinfo', 'access_token': '13_3JT3P6fn-V3kgk2wZHhufMrsqAlPh_5Gnr5JuEBCYGNvgFcj6YNhwO_Zu6XatYN56QQC32abD7iPQ8uGsjUAuT5SOuPVMBCd4te8stbPj64', 'openid': 'oX_haw_BONDkRRt6694x1Zk-WB78'}
+05:24:33->getuserinfo
+05:24:33->70>>have openid
+05:24:52->request method=GET
+05:25:07->err:get_auth_access_token error
+05:26:57->authview-->id in
+05:27:05->authview-->id in
+05:32:40->request method=GET
+05:41:25->authview-->id in
+05:41:32->authview-->id in
+05:41:35->authview-->id in
+05:41:42->authview-->id in
+05:43:10->authview-->id in
+05:55:04->authview-->id in
+05:55:39->authview-->id in
+06:05:48->authview-->id in
+06:19:09->authview-->id in
+07:17:15->authview-->id in
+07:17:17->authview-->id in
+10:01:46->authview-->id in
+10:01:51->authview-->id in
+10:02:36->not have user
+10:02:36->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+10:02:37->token:{'scope': 'snsapi_userinfo', 'expires_in': 7200, 'refresh_token': '13_ZygA9VZxaEfxs7IiXEyi_N_q42VLmEV3dLgBR3D1WSXwZF345cupho-lltqSbZmom15xf1nJyq5M5IzJvQxGneg-YJ9S8k7IJyNUOecRa68', 'access_token': '13_O7-a3Ad2__fvrIIlkbIM0zCk0tUul7AJPSXCUZexHmWhfFeBiSZ3MkE5goHbujLgA3zkYHoi8uI5O0PRmX5cF79AKw8-irBOpmHWGE_yS2Q', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk'}
+10:02:37->getuserinfo
+10:02:37->70>>have openid
+10:02:37->{'province': '', 'country': '', 'city': '', 'privilege': [], 'sex': 2, 'language': 'zh_CN', 'headimgurl': '', 'nickname': 'DI-2', 'user': <User: User object (6)>, 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk'}
+10:03:33->not have user
+10:03:33->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+10:03:34->token:{'scope': 'snsapi_userinfo', 'refresh_token': '13_4fPSAYd2h4qVWIoX0v5wOJTVxEEG3gojtVrANGl4Y2k5HhdaApm33gn60VAN9Ax73rtoI_sJY_vqDuL0V2cU4JoT691Ed80DptrXdQQIEB4', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'expires_in': 7200, 'access_token': '13_PHtfXQzW7QWU8xTlkkge0Zi76pR2jmcu3ncZyfKE4u2YNdF_dvrGW8WpCEtHUu4psLzvlJ8oG5MTWxASbjGi4Qpkf7pFImSlnfU1VcyCxKM'}
+10:03:34->getuserinfo
+10:03:34->70>>have openid
+10:03:34->{'headimgurl': '', 'language': 'zh_CN', 'sex': 2, 'city': '', 'privilege': [], 'user': <User: User object (6)>, 'province': '', 'country': '', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'nickname': 'DI-2'}
+10:05:39->not have user
+10:05:39->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+10:05:40->token:{'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'expires_in': 7200, 'scope': 'snsapi_userinfo', 'refresh_token': '13_KbNGzl11lBEL6WB9twYp4VCLR3qMNcIH5bih3AOuKGvUVEKWEKzpLFSdRIGxafqe5DK8cAkPwK8oUO9lp2-5R6QUUqalkSF-8kIuYxlprmc', 'access_token': '13_Y9T7_ZjQU2R8M_EctBg8CByYc3KQiE6acqyjVJTt00g-oOwdWQ6UbkAPrapmkTukjE3LxF1xOcz3-gWLVZ7FDY6IrYb2LNIncN7QRtNLy4g'}
+10:05:40->getuserinfo
+10:05:41->70>>have openid
+10:05:41->{'language': 'zh_CN', 'sex': 2, 'city': '', 'province': '', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'user': <User: User object (6)>, 'privilege': [], 'nickname': 'DI-2', 'headimgurl': '', 'country': ''}
+10:16:58->not have user
+10:16:58->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+10:16:59->token:{'refresh_token': '13_53D1Uguc0d7NI5HQ7jGBfyNMRIwJC7QnQu47xcDkg49zSc1hOs7VSFqk_kOdn_wJaSR5DOEjc1-LA7nPVjwCv5huBjnOvMc7L9Eo0gutSzE', 'expires_in': 7200, 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'access_token': '13_ZRgkUGU0weV4BV3kKf4Xm6R8QfZSNpu8ZhATYNkqH1inMdsZxInSmxjUhl1FKGjiiiKrSKGgJwUTe3QhVyFb1q-8EbwKAGcG6odDtNIZPjg', 'scope': 'snsapi_userinfo'}
+10:16:59->70>>have openid
+10:16:59->{'language': 'zh_CN', 'nickname': 'DI-2', 'sex': 2, 'country': '', 'city': '', 'headimgurl': '', 'user': <User: User object (6)>, 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'province': '', 'privilege': []}
+10:19:44->not have user
+10:19:44->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+10:19:46->70>>have openid
+10:19:46->{'privilege': [], 'user': <User: User object (6)>, 'sex': 2, 'country': '', 'city': '', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'nickname': 'DI-2', 'province': '', 'headimgurl': '', 'language': 'zh_CN'}
+10:19:46->wechat_view--.80->>
+10:19:53->authview-->id in
+10:20:06->authview-->id in
+10:20:09->authview-->id in
+10:23:50->authview-->id in
+10:27:28->authview-->id in
+10:29:44->authview-->id in
+10:29:48->authview-->id in
+10:29:59->authview-->id in
+10:31:11->not have user
+10:31:11->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+10:31:12->wechat_view--.80->>
+10:36:48->authview-->id in
+10:37:15->authview-->id in
+10:37:58->authview-->id in
+10:53:25->authview-->id in
+10:57:47->authview-->id in
+10:57:52->authview-->id in
+10:59:31->authview-->id in
+11:29:33->authview-->id in
+11:30:37->authview-->id in
+11:33:36->authview-->id in
+11:34:04->authview-->id in
+11:35:43->authview-->id in
+11:36:09->authview-->id in
+11:36:56->authview-->id in
+11:37:18->authview-->id in
+11:37:42->authview-->id in
+11:42:17->authview-->id in
+11:45:38->authview-->id in
+11:47:36->authview-->id in
+11:49:39->authview-->id in
+11:50:51->authview-->id in
+11:51:13->authview-->id in
+11:53:19->authview-->id in
+11:54:11->authview-->id in
+11:54:28->authview-->id in
+11:54:33->authview-->id in
+11:56:27->authview-->id in
+12:01:36->authview-->id in
+12:06:23->authview-->id in
+12:06:56->authview-->id in
+12:10:44->authview-->id in
+12:10:49->authview-->id in
+02:40:21->authview-->id in
+02:41:20->authview-->id in
+02:41:48->authview-->id in
+02:41:50->request method=GET
+02:43:55->authview-->id in
+02:44:19->authview-->id in
+02:44:59->authview-->id in
+02:49:55->authview-->id in
+03:04:27->authview-->id in
+03:15:40->authview-->id in
+03:15:47->request method=GET
+03:17:21->authview-->id in
+03:19:23->not have user
+03:19:23->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+03:19:28->wechat_view--.80->>
+03:19:32->err:get_auth_access_token error
+03:20:52->authview-->id in
+03:21:01->authview-->id in
+03:21:15->err:get_auth_access_token error
+03:21:15->authview-->id in
+03:22:09->authview-->id in
+03:22:31->not have user
+03:22:31->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+03:22:36->wechat_view--.80->>
+03:24:54->authview-->id in
+03:25:07->authview-->id in
+03:26:30->authview-->id in
+03:26:52->authview-->id in
+03:27:24->authview-->id in
+03:27:57->authview-->id in
+03:28:01->authview-->id in
+03:29:13->authview-->id in
+03:32:11->authview-->id in
+03:34:23->authview-->id in
+03:38:22->authview-->id in
+03:41:36->authview-->id in
+03:41:48->authview-->id in
+03:44:15->authview-->id in
+03:46:02->authview-->id in
+03:53:07->authview-->id in
+03:53:11->request method=GET
+03:53:11->request method=GET
+03:53:45->authview-->id in
+03:53:47->request method=GET
+03:55:24->authview-->id in
+03:57:55->authview-->id in
+03:58:22->authview-->id in
+04:02:12->authview-->id in
+04:04:31->authview-->id in
+04:07:40->authview-->id in
+04:11:48->authview-->id in
+04:12:31->authview-->id in
+04:13:06->request method=GET
+04:15:29->authview-->id in
+04:42:06->authview-->id in
+04:43:41->authview-->id in
+04:43:43->authview-->id in
+04:43:47->authview-->id in
+04:55:45->not have user
+04:55:45->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+04:55:48->wechat_view--.80->>
+05:03:40->not have user
+05:03:40->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:03:40->not have user
+05:03:40->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:04:57->err:get_auth_access_token error
+05:05:10->not have user
+05:05:10->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:05:16->wechat_view--.80->>
+05:26:38->authview-->id in
+05:26:43->request method=GET
+05:27:24->authview-->id in
+05:27:25->center--id == True id=7
+05:27:29->center--id == True id=7
+05:27:57->not have user
+05:27:57->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:28:03->wechat_view--.80->>
+05:28:18->err:get_auth_access_token error
+05:29:25->err:get_auth_access_token error
+05:29:25->err:get_auth_access_token error
+05:29:33->err:get_auth_access_token error
+05:29:33->err:get_auth_access_token error
+05:29:34->err:get_auth_access_token error
+05:29:35->err:get_auth_access_token error
+05:29:53->not have user
+05:29:53->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:29:54->wechat_view--.80->>
+05:29:59->not have user
+05:29:59->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:30:01->wechat_view--.80->>
+05:30:53->not have user
+05:30:53->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:30:54->wechat_view--.80->>
+05:33:09->not have user
+05:33:09->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:33:11->wechat_view--.80->>
+05:35:26->authview-->id in
+05:35:27->center--id == True id=7
+05:35:30->request method=GET
+05:35:32->center--id == True id=7
+05:37:34->not have user
+05:37:34->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:37:35->wechat_view--.80->>
+05:39:17->err:get_auth_access_token error
+05:39:25->authview-->id in
+05:39:29->center--id == True id=7
+05:39:34->center--id == True id=7
+05:39:39->authview-->id in
+05:40:54->center--id == True id=14
+05:40:56->authview-->id in
+05:42:09->not have user
+05:42:09->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:42:10->wechat_view--.80->>
+05:42:22->authview-->id in
+05:42:23->not have user
+05:42:23->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:42:25->wechat_view--.80->>
+05:43:06->authview-->id in
+05:43:28->authview-->id in
+05:44:42->not have user
+05:44:42->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2F&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect
+05:44:45->wechat_view--.80->>
+10:23:49->authview-->id in
+10:23:50->authview-->id in
+10:27:08->authview-->id in
+10:27:08->center--id == True id=7
+10:30:07->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:30:09->wechat_view--.80->>
+10:34:47->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:34:49->wechat_view--.80->>
+10:39:45->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:39:46->wechat_view--.80->>
+10:43:37->authview-->id in
+10:46:56->authview-->id in
+10:46:56->center--id == True id=7
+10:48:09->authview-->id in
+10:48:09->index else
+10:49:01->authview-->id in
+10:49:01->index else
+10:50:00->authview-->id in
+10:50:00->center--id == True id=7
+10:50:50->authview-->id in
+10:50:59->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:51:01->wechat_view--.80->>
+10:51:06->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:51:07->wechat_view--.80->>
+11:02:14->center-->return redirect
+11:03:54->center-->return redirect
+11:04:27->authview-->id in
+11:06:28->authview-->id in
+11:08:29->path, code, state=index
+11:08:29->authview-->id in
+11:09:29->path, code, state=index
+11:09:29->authview-->if id in else
+11:09:29->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:09:30->path, code, state=0010NL2A0uT0sf1kV23A077U2A00NL2Jindex
+11:09:31->wechat_view--.80->>
+11:11:07->path,index code, state=
+11:11:07->authview-->if id in else
+11:11:07->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:11:08->path, code,081tdZVG1nsnX80IjqVG1RIZVG1tdZVJ state=index
+11:11:09->wechat_view--.80->>
+11:13:42->path,index code, state=
+11:13:42->authview-->if id in else
+11:13:42->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:13:43->path, code,0210tJia2CRQWP0rsQha2CEDia20tJiI state=index
+11:14:07->path,index code, state=
+11:14:07->authview-->if id in else
+11:14:07->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:14:08->path, code,021CGpnB0UZ06g2LpvmB0GbvnB0CGpnb state=index
+11:14:42->path,index code, state=
+11:14:42->authview-->if id in else
+11:14:42->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:14:43->path, code,021csikw0SijGj1r3wiw0Njlkw0csikN state=index
+11:14:43->(<User_info: User_info object (1)>, False)
+11:16:43->path,index code, state=
+11:16:43->authview-->if id in else
+11:16:43->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:16:44->path, code,011S25Hq03n2lo1ZWaKq05ISGq0S25HD state=index
+11:16:44->User_info object (1)
+11:16:44->user_info.save-->DI
+11:17:28->path,index code, state=
+11:17:28->authview-->if id in else
+11:17:28->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:17:29->path, code,061Wt9y81eNYqR17xfA81qYWx81Wt9yL state=index
+11:17:29->User_info object (1)
+11:17:29->user_info.save-->DI
+11:18:24->path,index code, state=
+11:18:24->authview-->if id in else
+11:18:24->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:18:25->path, code,081CwLKp1Y50Qp0y6eJp1OuMKp1CwLK6 state=index
+11:18:25->User_info object (1)
+11:18:25->user_info.save-->DI
+11:18:35->center-->return redirect
+11:21:09->path,index code, state=
+11:21:09->authview-->if id in else
+11:21:09->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:21:09->path, code,001A8fjs0VmQwe1zplhs0MFmjs0A8fjt state=index
+11:21:10->User_info object (1)
+11:21:10->user_info.save-->DI
+11:21:29->path,index code, state=
+11:21:29->authview-->id in
+11:21:53->path,index code, state=
+11:21:53->authview-->if id in else
+11:21:53->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:21:58->path, code,071EpfIc0rkVEt1jQtLc0is8Ic0EpfIZ state=index
+11:21:58->User_info object (1)
+11:21:58->user_info.save-->DI
+11:23:01->path, code,071EpfIc0rkVEt1jQtLc0is8Ic0EpfIZ state=index
+11:23:02->authview--><wechat_service.wechat_api.APIError object at 0x7ff7474759e8>
+11:23:02->path, code,071EpfIc0rkVEt1jQtLc0is8Ic0EpfIZ state=index
+11:23:02->authview--><wechat_service.wechat_api.APIError object at 0x7ff7474759e8>
+11:23:26->path,index code, state=
+11:23:26->authview-->if id in else
+11:23:26->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:23:29->path, code,01157j1L10d5C51dIN3L1Buw1L157j1e state=index
+11:23:30->User_info object (1)
+11:23:30->user_info.save-->DI
+11:23:30-><class 'int'>
+11:23:45->path,index code, state=
+11:23:45->authview-->if id in else
+11:23:45->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:23:46->path, code,00194Qbi27WqWH0NVQbi2RYqbi294Qb1 state=index
+11:23:47->User_info object (1)
+11:23:47->user_info.save-->DI
+11:23:47-><class 'int'>
+11:23:53->center--id == True id=7
+11:24:16->path,center code, state=
+11:24:16->authview-->if id in else
+11:24:16->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:24:19->path, code,021iMbxw1h8VY90B5Dzw1th6xw1iMbxb state=center
+11:24:20->User_info object (1)
+11:24:20->user_info.save-->DI
+11:24:20-><class 'int'>
+11:24:22->center--id == True id=7
+11:26:08->path,index code, state=
+11:26:08->authview-->id in
+11:27:37->path,index code, state=
+11:27:37->authview-->id in
+11:28:32->path,index code, state=
+11:28:32->authview-->id in
+11:28:34->path,center code, state=
+11:28:34->authview-->id in
+11:28:34->center--id == True id=7
+11:28:37->path,index code, state=
+11:28:37->authview-->id in
+11:28:51->center--id == True id=7
+11:32:48->path,index code, state=
+11:32:48->authview-->id in
+11:32:51->path,center code, state=
+11:32:51->authview-->id in
+11:32:51->center--id == True id=7
+11:38:24->path,center code, state=
+11:38:24->authview-->id in
+11:38:25->center--id == True id=7
+11:38:49->path,index code, state=
+11:38:49->authview-->id in
+11:38:53->request method=GET
+11:39:47->path,index code, state=
+11:39:47->authview-->if id in else
+11:39:47->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:39:48->path, code,0114cu7j1DASTw0SHY9j1pDB7j14cu7n state=index
+11:39:48->wechat_view--.80->>
+11:39:48-><class 'int'>
+11:39:53->center--id == True id=6
+11:39:57->path,center code, state=
+11:39:57->authview-->id in
+11:39:57->center--id == True id=6
+11:39:59->path, code, state=
+11:40:07->path, code, state=
+11:40:41->path, code, state=
+11:40:42->path, code, state=
+11:40:49->path,center code, state=
+11:40:49->authview-->id in
+11:40:49->center--id == True id=6
+11:40:52->path, code, state=
+11:40:56->path,center code, state=
+11:40:56->authview-->id in
+11:40:56->center--id == True id=6
+11:41:00->path, code, state=
+11:41:14->path, code, state=
+11:41:39->path,index code, state=
+11:41:39->authview-->id in
+11:41:46->path,index code, state=
+11:41:46->authview-->id in
+11:42:00->center--id == True id=6
+08:56:10->path,index code, state=
+08:56:10->index
+08:56:10->authview-->if id in else
+08:56:10->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+08:56:11->path, code,071JWC2J0LcJWg2Uua1J0rvr2J0JWC2X state=index
+08:56:11->User_info object (1)
+08:56:11->user_info.save-->DI
+08:56:11-><class 'int'>
+08:57:45->path,index code, state=
+08:57:45->index
+08:57:45->authview-->id in
+08:58:15->path, code, state=
+08:58:50->path,index code, state=
+08:58:50->index
+08:58:50->authview-->id in
+08:58:52->path,center code, state=
+08:58:52->center
+08:58:52->authview-->id in
+08:58:52->center--id == True id=7
+09:00:07->path,index code, state=
+09:00:07->index
+09:00:07->authview-->if id in else
+09:00:42->path,index code, state=
+09:00:42->index
+09:00:42->authview-->if id in else
+09:00:42->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fwww.yqzql.com%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+09:00:42->path,index code, state=
+09:00:42->index
+09:00:42->authview-->if id in else
+09:00:42->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fwww.yqzql.com%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+09:54:25->path,index code, state=
+09:54:25->index
+09:54:25->authview-->id in
+09:54:27->path,center code, state=
+09:54:27->center
+09:54:27->authview-->id in
+09:54:27->center--id == True id=7
+09:59:00->path,index code, state=
+09:59:00->index
+09:59:00->authview-->if id in else
+09:59:00->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fwww.yqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+09:59:13->path,index code, state=
+09:59:13->index
+09:59:13->authview-->if id in else
+09:59:13->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fwww.yqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:00:17->path,index code, state=
+10:00:17->index
+10:00:17->authview-->if id in else
+10:00:17->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:00:20->path, code,021rjPNL1DVmg51KCTOL10RxNL1rjPNq state=index
+10:00:21->User_info object (1)
+10:00:21->user_info.save-->DI
+10:00:21-><class 'int'>
+10:07:51->path, code, state=
+10:08:41->path, code, state=
+10:08:42->path, code, state=
+10:08:42->path, code, state=
+10:08:42->path, code, state=
+10:09:02->path,index code, state=
+10:09:02->index
+10:09:02->authview-->if id in else
+10:09:02->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:09:12->path,index code, state=
+10:09:12->index
+10:09:12->authview-->id in
+10:09:14->path,center code, state=
+10:09:14->center
+10:09:14->authview-->if id in else
+10:09:14->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:09:14->path,center code, state=
+10:09:14->center
+10:09:14->authview-->if id in else
+10:09:14->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:11:22->path,index code, state=
+10:11:22->index
+10:11:22->authview-->if id in else
+10:11:22->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:11:25->path, code,081zRIoc1gmcAt0yYUqc1uj0pc1zRIoT state=index
+10:11:26->User_info object (1)
+10:11:26->user_info.save-->DI
+10:11:26-><class 'int'>
+10:12:38->path,index code, state=
+10:12:38->index
+10:12:38->authview-->id in
+10:12:40->center--id == True id=14
+10:12:41->path, code, state=
+10:17:11->path,index code, state=
+10:17:11->index
+10:17:11->authview-->id in
+10:17:12->center--id == True id=7
+10:17:14->path, code, state=
+10:17:18->center--id == True id=7
+10:17:20->path,center code, state=
+10:17:20->center
+10:17:20->authview-->id in
+10:17:20->center--id == True id=7
+10:19:20->path,index code, state=
+10:19:20->index
+10:19:20->authview-->id in
+10:19:21->center--id == True id=7
+10:19:23->path, code, state=
+10:20:55->path,index code, state=
+10:20:55->index
+10:20:55->authview-->id in
+10:20:58->center--id == True id=7
+10:21:11->center--id == True id=7
+10:21:13->path,center code, state=
+10:21:13->center
+10:21:13->authview-->id in
+10:21:13->center--id == True id=7
+10:21:15->path,center code, state=
+10:21:15->center
+10:21:15->authview-->id in
+10:21:15->center--id == True id=7
+10:21:42->path,index code, state=
+10:21:42->index
+10:21:42->authview-->if id in else
+10:21:42->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:21:44->path, code,011iF0vk1uXKIl0KEVtk1fDLuk1iF0vf state=index
+10:21:45->User_info object (6)
+10:21:45->user_info.save-->DI
+10:21:45-><class 'int'>
+10:21:51->center--id == True id=7
+10:21:59->path,index code, state=
+10:21:59->index
+10:21:59->authview-->id in
+10:22:00->center--id == True id=7
+10:22:50->path,index code, state=
+10:22:50->index
+10:22:50->authview-->id in
+10:22:51->center--id == True id=14
+10:22:57->path,index code, state=
+10:22:57->index
+10:22:57->authview-->id in
+10:22:58->center--id == True id=14
+10:25:55->path,index code, state=
+10:25:55->index
+10:25:55->authview-->id in
+10:25:58->center--id == True id=14
+10:26:01->path,center code, state=
+10:26:01->center
+10:26:01->authview-->if id in else
+10:26:01->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:26:02->path, code,011E5Hb71v68pT1b1U871fFwb71E5Hbq state=center
+10:26:02->User_info object (7)
+10:26:02->user_info.save-->中国体育彩票
+10:26:02-><class 'int'>
+10:26:02->path, code,001zkGs72SErHJ0g35r72940t72zkGsy state=center
+10:26:03->User_info object (7)
+10:26:03->user_info.save-->中国体育彩票
+10:26:03-><class 'int'>
+10:26:03->center--id == True id=14
+10:26:53->path,index code, state=
+10:26:53->index
+10:26:53->authview-->if id in else
+10:26:53->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:26:54->path, code,021Xxk190l380H1s8w190veu190Xxk1X state=index
+10:26:55->wechat_view--.80->>
+10:26:55-><class 'int'>
+10:26:59->center--id == True id=6
+10:27:07->path,center code, state=
+10:27:07->center
+10:27:07->authview-->if id in else
+10:27:07->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:27:08->path, code,081911Xj0FXr8m1oTAXj0hv6Xj0911Xb state=center
+10:27:09->wechat_view--.80->>
+10:27:09-><class 'int'>
+10:27:09->center--id == True id=6
+10:27:21->path,index code, state=
+10:27:21->index
+10:27:21->authview-->id in
+10:27:25->path,index code, state=
+10:27:25->index
+10:27:25->authview-->id in
+10:27:27->center--id == True id=6
+10:27:30->path,center code, state=
+10:27:30->center
+10:27:30->authview-->if id in else
+10:27:30->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:27:30->path, code,061sOpa800lghH1RHDb80yVia80sOpay state=center
+10:27:31->wechat_view--.80->>
+10:27:31-><class 'int'>
+10:27:31->center--id == True id=6
+10:27:33->path,center code, state=
+10:27:33->center
+10:27:33->authview-->if id in else
+10:27:33->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:27:34->path, code,001gHGFQ1nKP3a1pgECQ1q2VFQ1gHGFI state=center
+10:27:34->wechat_view--.80->>
+10:27:34-><class 'int'>
+10:27:34->center--id == True id=6
+10:28:13->path,index code, state=
+10:28:13->index
+10:28:13->authview-->id in
+10:28:14->center--id == True id=6
+10:28:16->path,center code, state=
+10:28:16->center
+10:28:16->authview-->if id in else
+10:28:16->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:28:17->path, code,001XuxgB0ZZq3g24dckB0rDqgB0Xuxgw state=center
+10:28:17->wechat_view--.80->>
+10:28:17-><class 'int'>
+10:28:18->center--id == True id=6
+10:28:21->path,center code, state=
+10:28:21->center
+10:28:21->authview-->if id in else
+10:28:21->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:28:21->path, code,0610SSOy0nxJug145tPy0Zy3Py00SSOe state=center
+10:28:22->wechat_view--.80->>
+10:28:22-><class 'int'>
+10:28:22->center--id == True id=6
+10:30:15->path,index code, state=
+10:30:15->index
+10:30:15->authview-->id in
+10:30:40->path,index code, state=
+10:30:40->index
+10:30:40->authview-->id in
+10:30:41->index else
+10:30:41->index else
+10:30:42->index else
+10:30:42->index else
+10:30:43->index else
+10:30:43->index else
+10:30:54->path,index code, state=
+10:30:54->index
+10:30:54->authview-->if id in else
+10:30:54->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:30:56->path, code,071yNdoj1iZZXv00gOlj1DYjoj1yNdoc state=index
+10:30:57->User_info object (5)
+10:30:57->user_info.save-->小肖
+10:30:57-><class 'int'>
+10:31:44->path,index code, state=
+10:31:44->index
+10:31:44->authview-->if id in else
+10:31:44->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:31:46->path, code,021xV5Ge0x8ceB17HdEe0XQ6Ge0xV5GX state=index
+10:31:47->User_info object (6)
+10:31:47->user_info.save-->DI
+10:31:47-><class 'int'>
+10:33:28->path,index code, state=
+10:33:28->index
+10:33:28->authview-->id in
+10:33:29->center--id == True id=6
+10:33:31->path,center code, state=
+10:33:31->center
+10:33:31->authview-->if id in else
+10:33:31->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:33:31->path, code,061gMP9e1dRjWr0n0Bae1u6H9e1gMP9V state=center
+10:33:32->wechat_view--.80->>
+10:33:32-><class 'int'>
+10:33:32->center--id == True id=6
+10:35:10->path,index code, state=
+10:35:10->index
+10:35:10->authview-->id in
+10:35:11->center--id == True id=6
+10:35:13->path,center code, state=
+10:35:13->center
+10:35:13->authview-->if id in else
+10:35:13->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:35:14->path, code,0618FuhQ15P2K91dOwiQ17VdhQ18FuhF state=center
+10:35:14->{'country': '', 'privilege': [], 'language': 'zh_CN', 'province': '', 'nickname': 'DI-2', 'user': <User: User object (6)>, 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'sex': 2, 'headimgurl': '', 'city': ''}
+10:35:14->wechat_view--.80->>
+10:35:14-><class 'int'>
+10:35:15->center--id == True id=6
+10:37:05->path,index code, state=
+10:37:05->index
+10:37:05->authview-->id in
+10:39:05->path,index code, state=
+10:39:05->index
+10:39:05->authview-->id in
+10:43:25->path,index code, state=
+10:43:25->index
+10:43:25->authview-->id in
+10:43:27->center--id == True id=6
+10:43:28->path,center code, state=
+10:43:28->center
+10:43:28->authview-->if id in else
+10:43:28->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:43:29->path, code,001Zy1fu1tCP9c0yGnbu1bQBeu1Zy1fE state=center
+10:43:29->{'privilege': [], 'province': '', 'nickname': 'DI-2', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'city': '', 'language': 'zh_CN', 'user': <User: User object (6)>, 'sex': 2, 'headimgurl': '', 'country': ''}
+10:44:20->path,index code, state=
+10:44:20->index
+10:44:20->authview-->id in
+10:44:21->center--id == True id=6
+10:44:24->path,center code, state=
+10:44:24->center
+10:44:24->authview-->if id in else
+10:44:24->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:44:24->path, code,081MZSj00Sm3bG1XsXk00oH3k00MZSj0 state=center
+10:44:25->{'country': '', 'user': <User: User object (6)>, 'province': '', 'nickname': 'DI-2', 'headimgurl': '', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'language': 'zh_CN', 'city': '', 'privilege': [], 'sex': 2}
+10:44:25->wechat_view--.80->>
+10:44:25-><class 'int'>
+10:44:25->center--id == True id=6
+10:55:33->path,index code, state=
+10:55:33->index
+10:55:33->authview-->id in
+10:55:35->center--id == True id=6
+10:55:37->path,center code, state=
+10:55:37->center
+10:55:37->authview-->if id in else
+10:55:37->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:55:38->path, code,011gxgqJ1pjvL50XIjnJ1ksdqJ1gxgqr state=center
+10:55:38->{'headimgurl': '', 'city': '', 'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'province': '', 'user': <User: User object (6)>, 'sex': 2, 'country': '', 'language': 'zh_CN', 'nickname': 'DI-2', 'privilege': []}
+10:55:38->wechat_view--.80->>["'2' value must be either True or False."]
+10:55:38-><class 'int'>
+10:55:39->center--id == True id=6
+10:57:10->path,index code, state=
+10:57:10->index
+10:57:10->authview-->id in
+10:57:12->center--id == True id=6
+10:57:14->path,center code, state=
+10:57:14->center
+10:57:14->authview-->if id in else
+10:57:14->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+10:57:15->path, code,001aW9ND0AEXPc2KtALD04nrND0aW9NB state=center
+10:57:15->{'openid': 'oX_haw0GD1zqfJqYifMUg4voLSKk', 'headimgurl': '', 'city': '', 'nickname': 'DI-2', 'sex': 1, 'privilege': [], 'country': '', 'language': 'zh_CN', 'user': <User: User object (6)>, 'province': ''}
+10:57:15->User_info object (8)
+10:57:15->user_info.save-->DI-2
+10:57:15-><class 'int'>
+10:57:15->center--id == True id=6
+10:57:39->index else
+10:57:40->index else
+10:57:42->index else
+10:57:42->index else
+10:57:43->index else
+10:57:43->index else
+10:57:57->path,index code, state=
+10:57:57->index
+10:57:57->authview-->if id in else
+10:57:57->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+10:57:59->path, code,01145gzS1Zkup71sFfxS1LibzS145gzC state=index
+10:58:00->{'sex': 0, 'openid': 'oX_haw2IAnEoeJ9769mqwPGjL6jo', 'privilege': [], 'user': <User: User object (12)>, 'country': '中国', 'nickname': '小肖', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLUEtOd0GG4zZviaRibHGP2WE3IVPSfEHKuldd1S6qqicib5ClnxNErWjsUYwdv04KBn6HabKDiaq4Vdzw/132', 'city': '昆明', 'language': 'zh_CN', 'province': '云南'}
+10:58:00->User_info object (5)
+10:58:00->user_info.save-->小肖
+10:58:00-><class 'int'>
+10:58:13->center--id == True id=6
+10:58:33->center--id == True id=6
+11:00:02->path,index code, state=
+11:00:02->index
+11:00:02->authview-->id in
+11:01:34->path,index code, state=
+11:01:34->index
+11:01:34->authview-->id in
+11:07:19->index else
+11:07:19->index else
+11:07:30->path,index code, state=
+11:07:30->index
+11:07:30->authview-->id in
+11:07:32->center--id == True id=6
+11:07:34->path,index code, state=
+11:07:34->index
+11:07:34->authview-->if id in else
+11:07:34->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:07:36->path, code,071DcAyw1Rnc0a081LAw1sYAyw1DcAyy state=index
+11:07:37->{'language': 'zh_CN', 'country': '中国', 'nickname': '小肖', 'privilege': [], 'sex': 0, 'user': <User: User object (12)>, 'province': '云南', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLUEtOd0GG4zZviaRibHGP2WE3IVPSfEHKuldd1S6qqicib5ClnxNErWjsUYwdv04KBn6HabKDiaq4Vdzw/132', 'openid': 'oX_haw2IAnEoeJ9769mqwPGjL6jo', 'city': '昆明'}
+11:07:37->User_info object (5)
+11:07:37->user_info.save-->小肖
+11:07:37-><class 'int'>
+11:09:20->path,center code, state=
+11:09:20->center
+11:09:20->authview-->id in
+11:09:20->center--id == True id=7
+11:16:36->path,center code, state=
+11:16:36->center
+11:16:36->authview-->id in
+11:16:36->center--id == True id=7
+11:16:47->path,center code, state=
+11:16:47->center
+11:16:47->authview-->if id in else
+11:16:47->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:16:49->path, code,011BV07P0S4pBa2H9M6P0hx57P0BV07C state=center
+11:16:50->{'language': 'zh_CN', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'nickname': 'DI', 'city': '', 'country': '阿富汗', 'privilege': [], 'user': <User: User object (7)>, 'province': '', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'sex': 0}
+11:16:50->User_info object (6)
+11:16:50->user_info.save-->DI
+11:16:50-><class 'int'>
+11:16:50->center--id == True id=7
+11:17:19->path,index code, state=
+11:17:19->index
+11:17:19->authview-->if id in else
+11:17:19->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+11:17:19->path, code,071eNBFn0fmH3s1X99Hn0oeGFn0eNBFT state=index
+11:17:20->{'nickname': 'DI', 'province': '', 'privilege': [], 'country': '阿富汗', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'user': <User: User object (7)>, 'sex': 0, 'language': 'zh_CN', 'city': ''}
+11:17:20->User_info object (6)
+11:17:20->user_info.save-->DI
+11:17:20-><class 'int'>
+11:17:23->center--id == True id=7
+11:19:51->path,center code, state=
+11:19:51->center
+11:19:51->authview-->if id in else
+11:19:51->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:19:53->path, code,081oi7Al11O9xk0thlzl1DU9Al1oi7Aw state=center
+11:19:54->{'user': <User: User object (7)>, 'city': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'sex': 0, 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'province': '', 'language': 'zh_CN', 'nickname': 'DI', 'country': '阿富汗', 'privilege': []}
+11:19:54->User_info object (6)
+11:19:54->user_info.save-->DI
+11:19:54-><class 'int'>
+11:19:54->center--id == True id=7
+11:21:47->path,center code, state=
+11:21:47->center
+11:21:47->authview-->id in
+11:21:48->path,center code, state=
+11:21:48->center
+11:21:48->authview-->id in
+11:21:48->center--id == True id=7
+11:29:32->path,center code, state=
+11:29:32->center
+11:29:32->authview-->if id in else
+11:29:32->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:29:33->path, code,081Z4Qjf0UYOJA1uK8hf0Pb4kf0Z4Qjv state=center
+11:29:34->{'country': '阿富汗', 'language': 'zh_CN', 'user': <User: User object (7)>, 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'nickname': 'DI', 'sex': 0, 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'province': '', 'privilege': [], 'city': ''}
+11:29:34->User_info object (6)
+11:29:34->user_info.save-->DI
+11:29:34-><class 'int'>
+11:29:34->center--id == True id=7
+11:30:04->path,index code, state=
+11:30:04->index
+11:30:04->authview-->id in
+11:30:37->path,center code, state=
+11:30:37->center
+11:30:37->authview-->id in
+11:30:37->center--id == True id=7
+11:31:49->path,center code, state=
+11:31:49->center
+11:31:49->authview-->if id in else
+11:31:49->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:31:51->path, code,071sanua0NjmUv1lVnta0Jb6ua0sanuw state=center
+11:31:51->{'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'province': '', 'language': 'zh_CN', 'user': <User: User object (7)>, 'country': '阿富汗', 'sex': 0, 'city': '', 'nickname': 'DI', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'privilege': []}
+11:31:52->User_info object (6)
+11:31:52->user_info.save-->DI
+11:31:52-><class 'int'>
+11:31:52->center--id == True id=7
+11:32:50->path,center code, state=
+11:32:50->center
+11:32:50->authview-->if id in else
+11:32:50->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:32:51->path, code,011eh51R0DS4692SWY0R0UuQ0R0eh51m state=center
+11:32:51->{'province': '', 'language': 'zh_CN', 'nickname': 'DI', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'city': '', 'privilege': [], 'user': <User: User object (7)>, 'country': '阿富汗', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'sex': 0}
+11:32:51->User_info object (6)
+11:32:51->user_info.save-->DI
+11:32:51-><class 'int'>
+11:32:51->center--id == True id=7
+11:33:12->path,center code, state=
+11:33:12->center
+11:33:12->authview-->id in
+11:33:12->center--id == True id=12
+11:33:33->path,center code, state=
+11:33:33->center
+11:33:33->authview-->if id in else
+11:33:33->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:33:38->path, code,0116y4iS0A6y682LYLiS0TORhS06y4iR state=center
+11:33:38->{'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'language': 'zh_CN', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'privilege': [], 'city': '', 'province': '', 'sex': 0, 'nickname': 'DI', 'country': '阿富汗', 'user': <User: User object (7)>}
+11:33:38->User_info object (6)
+11:33:38->user_info.save-->DI
+11:33:38-><class 'int'>
+11:33:38->center--id == True id=7
+11:38:01->path,center code, state=
+11:38:01->center
+11:38:01->authview-->if id in else
+11:38:01->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:38:12->path, code,0110gKOl1Ly4Qk0zJgPl14L9Pl10gKOR state=center
+11:38:12->{'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'privilege': [], 'user': <User: User object (7)>, 'language': 'zh_CN', 'province': '', 'country': '阿富汗', 'nickname': 'DI', 'sex': 0, 'city': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY'}
+11:38:12->User_info object (6)
+11:38:12->user_info.save-->DI
+11:38:12-><class 'int'>
+11:38:13->center--id == True id=7
+11:38:21->bind_api
+11:39:17->path, code,071NZVIU0wDjUW1uHZIU0A4XIU0NZVIS state=center
+11:39:18->{'city': '', 'nickname': 'DI', 'privilege': [], 'country': '阿富汗', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'province': '', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'language': 'zh_CN', 'sex': 0, 'user': <User: User object (7)>}
+11:39:18->User_info object (6)
+11:39:18->user_info.save-->DI
+11:39:18-><class 'int'>
+11:39:18->center--id == True id=7
+11:39:26->path,index code, state=
+11:39:26->index
+11:39:26->authview-->id in
+11:40:55->path,index code, state=
+11:40:55->index
+11:40:55->authview-->id in
+11:41:23->request method=GET
+11:41:29->request method=POST
+11:41:30->request method=POST
+11:41:30->request method=POST
+11:41:30->request method=POST
+11:41:30->request method=POST
+11:41:31->request method=POST
+11:41:31->request method=POST
+11:42:49->center--id == True id=7
+11:43:10->path,index code, state=
+11:43:10->index
+11:43:10->authview-->id in
+11:43:22->center--id == True id=7
+11:43:34->path,center code, state=
+11:43:34->center
+11:43:34->authview-->if id in else
+11:43:34->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:43:37->path, code,071Zfbqa2KcT8Q0tcnra2EDcqa2Zfbqb state=center
+11:43:38->{'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'nickname': 'DI', 'language': 'zh_CN', 'country': '阿富汗', 'privilege': [], 'user': <User: User object (7)>, 'sex': 0, 'province': '', 'city': ''}
+11:43:38->User_info object (6)
+11:43:38->user_info.save-->DI
+11:43:38-><class 'int'>
+11:43:38->center--id == True id=7
+11:44:52->path,center code, state=
+11:44:52->center
+11:44:52->authview-->if id in else
+11:44:52->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:44:55->path, code,011krQ102nNX601EYVZZ16y8202krQ1q state=center
+11:44:56->{'language': 'zh_CN', 'nickname': 'DI', 'privilege': [], 'sex': 0, 'user': <User: User object (7)>, 'city': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'province': '', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'country': '阿富汗'}
+11:44:56->User_info object (6)
+11:44:56->user_info.save-->DI
+11:44:56-><class 'int'>
+11:44:56->center--id == True id=7
+11:45:46->path,center code, state=
+11:45:46->center
+11:45:46->authview-->if id in else
+11:45:46->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:45:48->path, code,021I8zf32CVMvN0S3Ie32vbyf32I8zfK state=center
+11:45:48->{'nickname': 'DI', 'user': <User: User object (7)>, 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'country': '阿富汗', 'privilege': [], 'city': '', 'province': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'sex': 0, 'language': 'zh_CN'}
+11:45:48->User_info object (6)
+11:45:48->user_info.save-->DI
+11:45:48-><class 'int'>
+11:45:48->center--id == True id=7
+11:48:17->path,center code, state=
+11:48:17->center
+11:48:17->authview-->if id in else
+11:48:17->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:48:19->path, code,0819TlAQ1eH9Y91gH4zQ1QZqAQ19TlAn state=center
+11:48:20->{'user': <User: User object (7)>, 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'city': '', 'sex': 0, 'country': '阿富汗', 'privilege': [], 'nickname': 'DI', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'language': 'zh_CN', 'province': ''}
+11:48:20->User_info object (6)
+11:48:20->user_info.save-->DI
+11:48:20-><class 'int'>
+11:48:20->center--id == True id=7
+11:54:45->center-->return redirect
+11:54:45->center-->return redirect
+11:54:46->center-->return redirect
+11:54:47->center-->return redirect
+11:54:57->path,center code, state=
+11:54:57->center
+11:54:57->authview-->if id in else
+11:54:57->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+11:55:00->path, code,071iBkSv0CpSij1P1CSv0KovSv0iBkS5 state=center
+11:55:01->{'language': 'zh_CN', 'privilege': [], 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'country': '阿富汗', 'city': '', 'user': <User: User object (7)>, 'province': '', 'sex': 0, 'nickname': 'DI', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY'}
+11:55:01->User_info object (6)
+11:55:01->user_info.save-->DI
+11:55:01-><class 'int'>
+11:55:01->center--id == True id=7
+12:01:21->center--id == True id=7
+12:01:30->path,index code, state=
+12:01:30->index
+12:01:30->authview-->id in
+12:01:38->path,index code, state=
+12:01:38->index
+12:01:38->authview-->id in
+12:01:47->center--id == True id=7
+12:02:03->bind_api
+12:02:06->center--id == True id=7
+12:02:11->path,index code, state=
+12:02:11->index
+12:02:11->authview-->id in
+12:02:12->center--id == True id=7
+12:02:16->center-->return redirect
+12:02:16->path,center code, state=
+12:02:16->center
+12:02:16->authview-->if id in else
+12:02:16->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+12:02:19->bind_api
+12:02:22->path,index code, state=
+12:02:22->index
+12:02:22->authview-->id in
+12:02:24->path, code,081GUJwc2WQZxE0VHWvc2IyAwc2GUJwd state=center
+12:02:25->{'privilege': [], 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'user': <User: User object (7)>, 'sex': 0, 'country': '阿富汗', 'province': '', 'language': 'zh_CN', 'nickname': 'DI', 'city': ''}
+12:02:25->User_info object (6)
+12:02:25->user_info.save-->DI
+12:02:25-><class 'int'>
+12:02:25->center--id == True id=7
+12:59:17->path,index code, state=
+12:59:17->index
+12:59:17->authview-->id in
+12:59:36->path,index code, state=
+12:59:36->index
+12:59:36->authview-->if id in else
+12:59:36->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+12:59:40->path, code,001kJDrD1cT1c30SnCsD1bfxrD1kJDrq state=index
+12:59:41->{'privilege': [], 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'user': <User: User object (7)>, 'province': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'sex': 0, 'country': '阿富汗', 'language': 'zh_CN', 'city': '', 'nickname': 'DI'}
+12:59:41->User_info object (6)
+12:59:41->user_info.save-->DI
+12:59:41-><class 'int'>
+01:01:52->path,index code, state=
+01:01:52->index
+01:01:52->authview-->id in
+01:04:06->path,index code, state=
+01:04:06->index
+01:04:06->authview-->id in
+01:05:24->path,index code, state=
+01:05:24->index
+01:05:24->authview-->id in
+01:06:37->path,index code, state=
+01:06:37->index
+01:06:37->authview-->id in
+01:08:01->path,index code, state=
+01:08:01->index
+01:08:01->authview-->id in
+01:08:35->path,index code, state=
+01:08:35->index
+01:08:35->authview-->id in
+01:09:28->path,index code, state=
+01:09:28->index
+01:09:28->authview-->id in
+01:09:52->path,index code, state=
+01:09:52->index
+01:09:52->authview-->id in
+01:10:04->path,index code, state=
+01:10:04->index
+01:10:04->authview-->id in
+01:10:37->path,index code, state=
+01:10:37->index
+01:10:37->authview-->id in
+01:12:30->path,index code, state=
+01:12:30->index
+01:12:30->authview-->id in
+01:12:52->path,index code, state=
+01:12:52->index
+01:12:52->authview-->id in
+01:16:15->path,index code, state=
+01:16:15->index
+01:16:15->authview-->id in
+01:16:58->path,index code, state=
+01:16:58->index
+01:16:58->authview-->id in
+01:17:26->path,index code, state=
+01:17:26->index
+01:17:26->authview-->id in
+01:18:15->path,index code, state=
+01:18:15->index
+01:18:15->authview-->id in
+01:19:15->path,index code, state=
+01:19:15->index
+01:19:15->authview-->id in
+01:19:43->path,index code, state=
+01:19:43->index
+01:19:43->authview-->id in
+01:20:11->path,index code, state=
+01:20:11->index
+01:20:11->authview-->id in
+01:20:21->center--id == True id=7
+02:16:19->center--id == True id=7
+02:17:15->center--id == True id=7
+02:20:20->path,index code, state=
+02:20:20->index
+02:20:20->authview-->id in
+02:20:21->center--id == True id=7
+02:20:28->path,center code, state=
+02:20:28->center
+02:20:28->authview-->id in
+02:20:28->center--id == True id=7
+02:20:42->center--id == True id=7
+02:21:03->center--id == True id=7
+02:21:31->center--id == True id=7
+02:22:24->path,index code, state=
+02:22:24->index
+02:22:24->authview-->id in
+02:22:25->center--id == True id=7
+02:25:25->path,center code, state=
+02:25:25->center
+02:25:25->authview-->id in
+02:25:25->center--id == True id=7
+02:25:43->path,center code, state=
+02:25:43->center
+02:25:43->authview-->id in
+02:25:43->center--id == True id=7
+02:28:07->path,center code, state=
+02:28:07->center
+02:28:07->authview-->id in
+02:28:07->center--id == True id=7
+02:28:53->path,index code, state=
+02:28:53->index
+02:28:53->authview-->id in
+02:28:54->center--id == True id=7
+02:29:04->center--id == True id=7
+02:30:33->center-->return redirect
+02:30:33->center-->return redirect
+02:30:40->path,center code, state=
+02:30:40->center
+02:30:40->authview-->if id in else
+02:30:40->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+02:30:48->path, code,011a0fYy0RwvEg18IiYy0phkYy0a0fY6 state=center
+02:30:49->{'user': <User: User object (7)>, 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'city': '', 'sex': 0, 'privilege': [], 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'province': '', 'language': 'zh_CN', 'country': '阿富汗', 'nickname': 'DI'}
+02:30:49->User_info object (6)
+02:30:49->user_info.save-->DI
+02:30:49-><class 'int'>
+02:30:49->center--id == True id=7
+02:37:29->path,index code, state=
+02:37:29->index
+02:37:29->authview-->id in
+02:37:31->center--id == True id=7
+02:37:46->path,center code, state=
+02:37:46->center
+02:37:46->authview-->id in
+02:37:46->center--id == True id=7
+02:38:04->path,center code, state=
+02:38:04->center
+02:38:04->authview-->id in
+02:38:04->center--id == True id=7
+02:39:47->path,center code, state=
+02:39:47->center
+02:39:47->authview-->id in
+02:39:47->center--id == True id=7
+02:41:05->path,center code, state=
+02:41:05->center
+02:41:05->authview-->id in
+02:41:05->center--id == True id=7
+03:15:07->path,center code, state=
+03:15:07->center
+03:15:07->authview-->id in
+03:15:07->center--id == True id=7
+03:15:09->bind_api
+03:16:02->path,center code, state=
+03:16:02->center
+03:16:02->authview-->id in
+03:16:02->center--id == True id=7
+03:16:14->bind_api
+03:18:54->path,center code, state=
+03:18:54->center
+03:18:54->authview-->id in
+03:18:54->center--id == True id=7
+03:19:09->bind_api
+03:19:19->path,center code, state=
+03:19:19->center
+03:19:19->authview-->id in
+03:19:19->center--id == True id=7
+03:19:37->bind_api
+03:20:18->bind_api
+03:20:28->path,center code, state=
+03:20:28->center
+03:20:28->authview-->id in
+03:20:28->center--id == True id=7
+03:20:43->bind_api
+03:23:57->path,center code, state=
+03:23:57->center
+03:23:57->authview-->id in
+03:23:57->center--id == True id=7
+03:24:16->bind_api
+03:31:46->bind_api
+03:34:56->15877752004云A123456
+03:34:56->bind_api
+03:36:22->path,center code, state=
+03:36:22->center
+03:36:22->authview-->id in
+03:36:23->center--id == True id=7
+03:37:45->15877752004云A1234567
+03:37:45->bind_api
+03:40:07->path,center code, state=
+03:40:07->center
+03:40:07->authview-->id in
+03:40:07->center--id == True id=7
+03:40:17->15877752003云A1234567
+03:40:17->bind_api
+03:42:45->path,center code, state=
+03:42:45->center
+03:42:45->authview-->id in
+03:42:45->center--id == True id=7
+03:42:54->15877752004云A1234567
+03:42:54->bind_api
+03:44:55->path,center code, state=
+03:44:55->center
+03:44:55->authview-->id in
+03:44:55->center--id == True id=7
+03:45:02->15877752003云A1234567
+03:45:02->bind_api
+03:46:18->15877752004云A1234567
+03:46:18->bind_api
+03:47:20->15877752004云A123457
+03:47:20->bind_api
+03:47:20->15877752004云A123457
+03:47:20->bind_api
+03:47:49->158777234云A1234567
+03:47:49->bind_api
+03:50:48->path,center code, state=
+03:50:48->center
+03:50:48->authview-->id in
+03:50:48->center--id == True id=7
+03:50:58->path,center code, state=
+03:50:58->center
+03:50:58->authview-->id in
+03:50:58->center--id == True id=7
+03:51:14->15877752003云A1234567
+03:51:14->bind_api
+03:53:00->path,center code, state=
+03:53:00->center
+03:53:00->authview-->id in
+03:53:00->center--id == True id=7
+03:53:12->15877752003云A1234567
+03:53:12->bind_api
+03:53:24->15877752003云A1234567
+03:53:24->bind_api
+03:53:24->center--id == True id=7
+04:08:10->path,index code, state=
+04:08:10->index
+04:08:10->authview-->id in
+04:08:28->center--id == True id=7
+04:10:52->path,index code, state=
+04:10:52->index
+04:10:52->authview-->id in
+04:11:03->center--id == True id=7
+04:11:46->path,index code, state=
+04:11:46->index
+04:11:46->authview-->id in
+04:11:48->path,index code, state=
+04:11:48->index
+04:11:48->authview-->id in
+04:11:54->request method=GET
+04:14:20->path,index code, state=
+04:14:20->index
+04:14:20->authview-->id in
+04:17:11->center--id == True id=7
+04:18:12->path,index code, state=
+04:18:12->index
+04:18:12->authview-->id in
+04:18:17->inquire lp:云A123456
+04:19:56->path,index code, state=
+04:19:56->index
+04:19:56->authview-->id in
+04:21:42->path,index code, state=
+04:21:42->index
+04:21:42->authview-->id in
+04:22:57->path,index code, state=
+04:22:57->index
+04:22:57->authview-->id in
+04:25:00->path,index code, state=
+04:25:00->index
+04:25:00->authview-->id in
+04:25:50->path,index code, state=
+04:25:50->index
+04:25:50->authview-->id in
+04:26:11->path,index code, state=
+04:26:11->index
+04:26:11->authview-->id in
+04:27:36->path,index code, state=
+04:27:36->index
+04:27:36->authview-->id in
+04:27:43->test
+04:28:04->path,index code, state=
+04:28:04->index
+04:28:04->authview-->id in
+04:28:13->test
+04:30:36->path,index code, state=
+04:30:36->index
+04:30:36->authview-->id in
+04:31:29->path,index code, state=
+04:31:29->index
+04:31:29->authview-->id in
+04:31:33->test<class 'django.db.models.query.QuerySet'>
+04:35:12->test
+04:35:36->test
+04:35:50->center--id == True id=7
+04:35:54->path,index code, state=
+04:35:54->index
+04:35:54->authview-->id in
+04:36:41->path,index code, state=
+04:36:41->index
+04:36:41->authview-->id in
+04:36:44->User object (7)
+04:37:07->path,index code, state=
+04:37:07->index
+04:37:07->authview-->id in
+04:37:10->15877752003
+04:38:39->test
+04:38:54->path,index code, state=
+04:38:54->index
+04:38:54->authview-->id in
+04:39:51->path,index code, state=
+04:39:51->index
+04:39:51->authview-->id in
+04:40:41->123
+04:42:37->99
+04:42:52->100
+04:46:48->path,index code, state=
+04:46:48->index
+04:46:48->authview-->id in
+04:48:22->name 'ms' is not defined
+04:49:31->test
+04:49:31->'Request' object has no attribute 'read'
+04:50:11->call.py-->b'{"code":"0","message":"SUCCESS","data":{"subid":"A2263X10X0482167459-11-0-FHWJT-GXI","telX":"13241690803"}}'
+04:50:11->Expecting value: line 1 column 1 (char 0)
+04:52:19->center--id == True id=7
+04:52:23->path,index code, state=
+04:52:23->index
+04:52:23->authview-->id in
+04:52:34->call.py-->13241657657
+04:52:34->Expecting value: line 1 column 1 (char 0)
+04:53:13->call.py-->13241657657
+04:56:10->call.py-->13241931793
+04:56:36->center--id == True id=7
+04:56:39->path,index code, state=
+04:56:39->index
+04:56:39->authview-->id in
+04:56:43->call.py-->13241931793
+04:58:03->path,index code, state=
+04:58:03->index
+04:58:03->authview-->id in
+04:58:08->request method=GET
+04:58:37->call.py-->13241933167
+04:58:53->center--id == True id=7
+04:58:56->center--id == True id=7
+04:59:00->call.py-->13241933167
+05:01:18->call.py-->13241969563
+05:01:19->call.py-->13241969563
+05:01:23->call.py-->13241969563
+05:03:05->call.py-->13241995556
+05:03:59->path,index code, state=
+05:03:59->index
+05:03:59->authview-->id in
+05:04:08->request method=GET
+05:04:29->path,index code, state=
+05:04:29->index
+05:04:29->authview-->if id in else
+05:04:29->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+05:04:32->path, code,001U30i92UvAhR0NXNh92y1Wh92U30iW state=index
+05:04:32->{'city': '', 'privilege': [], 'user': <User: User object (7)>, 'sex': 0, 'province': '', 'country': '阿富汗', 'nickname': 'DI', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'language': 'zh_CN', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY'}
+05:04:32->User_info object (6)
+05:04:32->user_info.save-->DI
+05:04:32-><class 'int'>
+05:04:38->call.py-->13241687363
+05:06:10->call.py-->13241670231
+05:12:13->path,index code, state=
+05:12:13->index
+05:12:13->authview-->id in
+05:13:17->path,index code, state=
+05:13:17->index
+05:13:17->authview-->id in
+05:13:21->call.py-->13241931693
+05:13:58->call.py-->13241931693
+05:14:11->call.py-->13241931693
+05:15:17->path,index code, state=
+05:15:17->index
+05:15:17->authview-->id in
+05:15:22->call.py-->13241678370
+05:15:22->Expecting value: line 1 column 1 (char 0)
+05:17:36->call.py--><class 'str'>
+05:17:36->Expecting value: line 1 column 1 (char 0)
+05:19:13->center--id == True id=7
+05:20:05->15877752004云A1234567
+05:20:05->test
+05:20:05->bind_api
+05:21:45->15877752003云A1234567
+05:21:45->bind_api
+05:37:11->path,index code, state=
+05:37:11->index
+05:37:11->authview-->id in
+05:37:16->path,center code, state=
+05:37:16->center
+05:37:16->authview-->id in
+05:37:16->center--id == True id=8
+05:37:19->path,index code, state=
+05:37:19->index
+05:37:19->authview-->id in
+05:38:09->path,index code, state=
+05:38:09->index
+05:38:09->authview-->id in
+05:38:23->center--id == True id=8
+05:38:27->15398593943NONE8
+05:38:27->bind_api
+05:38:35->15398766767NONE8
+05:38:35->bind_api
+05:38:39->15398766767NONE8
+05:38:39->bind_api
+05:38:41->15398766767NONE8
+05:38:41->bind_api
+05:38:54->15398766767NONE8
+05:38:54->bind_api
+05:38:58->15398766767NONE8
+05:38:58->bind_api
+05:38:59->15398766767NONE8
+05:38:59->bind_api
+05:41:24->path,index code, state=
+05:41:24->index
+05:41:24->authview-->id in
+05:42:14->center--id == True id=10
+05:42:21->path,index code, state=
+05:42:21->index
+05:42:21->authview-->id in
+05:42:27->path,center code, state=
+05:42:27->center
+05:42:27->authview-->id in
+05:42:27->center--id == True id=10
+05:42:34->path,center code, state=
+05:42:34->center
+05:42:34->authview-->id in
+05:42:34->center--id == True id=10
+05:42:36->path,center code, state=
+05:42:36->center
+05:42:36->authview-->if id in else
+05:42:36->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=center#wechat_redirect
+05:42:37->path, code,071WarPU1rim3W0itBPU1ljlPU1WarPl state=center
+05:42:38->{'nickname': '兵部尚书', 'country': '中国', 'privilege': [], 'city': '昆明', 'sex': 0, 'openid': 'oX_haw4ifVW4T522ku5rf-avxK6Y', 'language': 'zh_CN', 'province': '云南', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/J2iaxtmdxuKWFRb09aSdUKlAWarAl9dLlvT33MYUDUsicibnv5O8lUo5OeqeTc82sy6kEPAyq7lyySDmawSNZJLDQ/132', 'user': <User: User object (10)>}
+05:42:38->User_info object (9)
+05:42:38->user_info.save-->兵部尚书
+05:42:38-><class 'int'>
+05:42:38->center--id == True id=10
+05:42:51->13888373479云A6B3P710
+05:42:51->bind_api
+05:43:23->path,center code, state=
+05:43:23->center
+05:43:23->authview-->id in
+05:43:23->center--id == True id=10
+05:43:32->path,center code, state=
+05:43:32->center
+05:43:32->authview-->id in
+05:43:32->center--id == True id=10
+05:44:08->path,center code, state=
+05:44:08->center
+05:44:08->authview-->id in
+05:44:08->center--id == True id=10
+05:44:17->13888373479云A6B3P710
+05:44:17->bind_api
+05:44:34->13888373479云A6B3P710
+05:44:34->bind_api
+05:44:41->13888373479云A6B3P710
+05:44:41->bind_api
+05:44:43->13888373479云A6B3P710
+05:44:43->bind_api
+05:45:02->path,index code, state=
+05:45:02->index
+05:45:02->authview-->id in
+05:46:30->path,center code, state=
+05:46:30->center
+05:46:30->authview-->id in
+05:46:30->center--id == True id=10
+05:49:34->path,index code, state=
+05:49:34->index
+05:49:34->authview-->if id in else
+05:49:34->auth_urlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1daf30a5ae26e09e&redirect_uri=https%3A%2F%2Fyqzql.cn%2Fwechat_service&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect
+05:49:34->path, code,061BNKAr13B5ho0FABCr1ITPAr1BNKAo state=index
+05:49:35->{'sex': 0, 'language': 'zh_CN', 'province': '', 'openid': 'oX_hawy_OpZ356Qh_fj3nSKyCqrY', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/LnQTdrKVuADXzWNjjdqibzTg6JHqL1gXonmfVcYicDqkYEbC6KChiaXibNtIvODvaSFkOVnicQLre4IGphDDMJtxsOw/132', 'city': '', 'nickname': 'DI', 'user': <User: User object (7)>, 'privilege': [], 'country': '阿富汗'}
+05:49:35->User_info object (6)
+05:49:35->user_info.save-->DI
+05:49:35-><class 'int'>
+05:49:40->center--id == True id=7
+05:49:43->center--id == True id=7
+05:50:01->center--id == True id=7
+05:50:13->15877752004云A1234567
+05:50:13->bind_api
+05:50:22->path,index code, state=
+05:50:22->index
+05:50:22->authview-->id in
+05:50:25->center--id == True id=7
+05:56:13->path,index code, state=
+05:56:13->index
+05:56:13->authview-->id in
+05:57:13->center--id == True id=7
+07:00:04->path,index code, state=
+07:00:04->index
+07:00:04->authview-->id in
+07:00:16->center--id == True id=7
+07:00:44->path,index code, state=
+07:00:44->index
+07:00:44->authview-->id in
+07:00:46->path,center code, state=
+07:00:46->center
+07:00:46->authview-->id in
+07:00:46->center--id == True id=7
+07:01:19->path,index code, state=
+07:01:19->index
+07:01:19->authview-->id in
+07:09:36->path,index code, state=
+07:09:36->index
+07:09:36->authview-->id in
+07:09:39->center--id == True id=7
+07:10:52->path,center code, state=
+07:10:52->center
+07:10:52->authview-->id in
+07:10:52->center--id == True id=7
+11:55:04->path,index code, state=
+11:55:04->index
+11:55:04->authview-->id in
+11:55:09->center--id == True id=7
+11:55:29->path,index code, state=
+11:55:29->index
+11:55:29->authview-->id in
+11:55:34->center--id == True id=7
+11:56:31->path,index code, state=
+11:56:31->index
+11:56:31->authview-->id in
+11:56:50->path,center code, state=
+11:56:50->center
+11:56:50->authview-->id in
+11:56:50->center--id == True id=7
+12:28:38->path,index code, state=
+12:28:38->index
+12:28:38->authview-->id in
+12:28:47->path,center code, state=
+12:28:47->center
+12:28:47->authview-->id in
+12:28:47->center--id == True id=7
+12:28:50->15877752004云A1234567
+12:28:50->bind_api
+02:33:31->path,index code, state=
+02:33:31->index
+02:33:31->authview-->id in
+02:33:35->path,center code, state=
+02:33:35->center
+02:33:35->authview-->id in
+02:33:35->center--id == True id=7

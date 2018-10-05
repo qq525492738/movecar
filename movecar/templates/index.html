@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>钉钉挪车</title>
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="static/css/jquery.css"/>
+    
+    <style> 
+            body{
+                background-color: #A4A4A4; 
+            }
+            ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+                color:    #fff;
+            }
+            :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color:    #fff;
+            }
+            ::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color:    #fff;
+            }
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color:    #fff;
+            }   
+    </style>
+    <script src="static/js/jquery-latest.js" type="text/javascript" charset="utf-8"></script>
+    <script src="static/js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="static/js/car_selector.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+    function isLicenseNo(vehicleNumber) {
+        var result = false;
+        if (vehicleNumber.length == 7 || vehicleNumber.length == 8){
+           var express = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-Z0-9]{4,6}[A-Z0-9挂学警港澳]{0,1}$/;
+           result = express.test(vehicleNumber);
+           }
+        return result;
+    }
+    
+        function verify() {
+           
+            var carName = $("input[ name='car_name']").val();
+            if (isLicenseNo(carName)) {
+                $('.warning').html("");
+                return true;
+            }
+            if(isLicenseNo(carName)){
+                $('.warning').html("请输入正确的车牌号!");
+                return false;
+            }
+           
+        }  
+        $("input[name='car_name']").focus(function(){
+             $('.warning').html("");
+
+        });
+    </script>
+</head>
+<body>
+    <div class="page">
+        <div class="logo">
+            <img src="static/img/logo.png" alt="" >
+        </div>
+        
+        <div class="index_form">
+             <form class="form" onsubmit="return verify()">
+                    <div class="mobile">
+                        <label for="car_name" class="p2"> - 输入车牌号呼叫 -</label>
+                        <div class="input">
+                           
+                           
+                            <select name="lp" id="car1" style="font-size:16px;text-align:center;height:32px;width:32px;line-height:32px;outline:none;border:none;margin-left:10px;margin-right:4px;border-radius:10px;overflow:hidden;appearance:none;-moz-appearance:none;-webkit-appearance:none;background-color:#fff;" value="云"></select>
+                            
+                            <input id="car2" maxlength='1' value='A' style="width:24px;height:24px;border-radius:0;font-size:16px;line-height:24px;padding:0;box-sizing:border-box;border:none;outline:none;" pattern="^[a-zA-Z]"></ipnut>
+                            <span style="padding:0 4px;padding-bottom:4px;margin-right:4px;">&bull;</span>
+                            
+                            
+                            <input id="car3" style=" padding:0;height:24px;font-size:16px;line-heght:24px;letter-space:12px;" maxlength='6'></ipnut>
+                         
+                          
+                           
+                            
+                            
+                        </div>     
+                    </div>
+
+                    <p class="warning"></p>
+
+                    <div class="content">
+                        <button type="button" id='call' class="submit">呼叫车主</button>
+                        <!--<a href="{% url 'center' %}" class="submit">申请挪车码</a>-->
+                    </div>
+                </form>
+                <a href="wechat_service" id="call_a" "target="_blank" style='disibility:hidden;'></a>
+        </div>
+        <div class="footer">
+            <img src="static/img/p2.png" alt="" >
+        </div>
+
+    </div>
+
+</body>
+</html>

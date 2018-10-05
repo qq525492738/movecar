@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>钉钉挪车</title>
+    <link rel="stylesheet" href="static/css/main.css">
+    <style> 
+            ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+                color:    #fff;
+            }
+            :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color:    #fff;
+            }
+            ::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color:    #fff;
+            }
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color:    #fff;
+            }
+            .callfor{
+                width: 90%;
+                margin:0 auto;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+            }
+            .callfor p{
+                color: #fff;
+                font-size: 18px;
+                padding: 40px 0;
+            }
+            .callfor  .tel{
+                width: 60%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 14px;
+                text-align: center;
+                color:#DD8200;
+                letter-spacing: 4px;
+                border-radius: 4px;
+                outline: none;
+                border:0;
+            }
+            .callfor .callto{
+                display: block;
+                width: 50%;
+                height: 36px;
+                line-height: 36px;
+                border: 1px solid #fff;
+                border-radius: 18px;
+                #background-color: #DD8200;
+                color: #fff;
+                margin-top: 80px;
+                margin-bottom: 20px;
+                outline: none;
+                letter-spacing: 2px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+            }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="logo">
+            <img src="static/img/logo.png" alt="" >
+        </div>
+                <div class="callfor">
+                        <p>{{ prompt }}</p>
+                </div>
+               
+        
+        <div class="footer">
+            <img src="static/img/p2.png" alt="" >
+        </div>
+
+    </div>
+</body>
+</html>

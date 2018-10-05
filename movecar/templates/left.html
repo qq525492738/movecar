@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0",useab>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>钉钉挪车</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style> 
+        body{ background-color: #DD8200;}
+    </style>
+</head>
+<body>
+    <div class="model">
+        <div class="model-one">
+            <div class="one-title">
+                   <img src="img/one_title.png" alt="">
+            </div>
+            
+            <form class="form" action="/inquire" method="post">
+                {% csrf_token %}
+                <div class="items">
+                    <input type="text" placeholder="请输入车牌号">
+                    <div class="items_top">
+                        <p>云</p>
+                        <img src="img/jiao.png" alt="">
+                    
+                    </div>
+                </div>
+
+                <div class="items">
+                    <input type="text" placeholder="请输入手机号码">
+                    <div>
+                        <img src="img/mobile.png" alt="">
+                    </div>
+                </div>
+
+                <div class="items"> 
+                    <input type="text" placeholder="验证码">
+                    <div>
+                        <img src="img/qrcode.png" alt="">
+                    </div>
+                </div>
+                    
+                    <p>请填写正确的信息</p>
+            </form>
+
+           
+
+            <button>绑定挪车码 </button>
+
+            <div class="one-info">
+                    <input type="radio">我已阅读《钉钉挪车用户第三方协议》
+            </div>
+            
+            
+
+        </div>
+        <div></div>
+       
+
+</div>
+</body>
+</html>
